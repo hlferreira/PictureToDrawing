@@ -1,0 +1,26 @@
+
+.linePaintingWrapper {
+    position: relative;
+}
+
+.color-info{
+    display: flex;
+    flex-direction: column;
+}
+.info-lines {
+    height: 10px;
+}
+.selected-color{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.colors-wrapper {
+    height: 10vh;
+}
+
+#textCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

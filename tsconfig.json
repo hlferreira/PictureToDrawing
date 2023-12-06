@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    },
+    "include": ["./src/*"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@/*": ["./*"]
+    }
+}

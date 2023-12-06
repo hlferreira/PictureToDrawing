@@ -1,0 +1,13 @@
+#renderedImage {
+    width: 1200px;
+    height: auto;
+}
+
+.provided-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.provided-image * {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <script type="text/javascript" src="opencv/opencv.js"></script> -->
+        <meta charset="utf-8" />
+        <title>Line painting</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,800;1,200;1,800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <script src="/src/index.ts" type="module"></script>
+        <div id="app"></div>
+        <script type="text/javascript">
+            var Module = {
+             // https://emscripten.org/docs/api_reference/module.html#Module.onRuntimeInitialized
+             async onRuntimeInitialized() {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                cvInit()
+             }
+            };
+            </script>
+        <script async src="https://docs.opencv.org/4.5.4/opencv.js" type="text/javascript"></script>
+    </body>
+</html>
